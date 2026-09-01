@@ -1,0 +1,8 @@
+opencv-python>=4.8.0
+deepface>=0.0.79
+tf-keras>=2.15.0
+flask>=3.0.0
+pywebview>=4.4.0
+psutil>=5.9.0
+pywin32>=306
+tf-keras>=2.15.0

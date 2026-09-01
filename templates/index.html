@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgeGuard AI Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>AgeGuard Pro Shield</h1>
+        <p class="subtitle">Parental Control Active</p>
+        
+        <div class="age-display" id="age">--</div>
+        
+        <div id="alertMsg" class="alert-box">
+            🚨 RESTRICTED CONTENT BLOCKED
+        </div>
+        
+        <button class="toggle-btn" onclick="toggleShield()">Enable/Disable Guard</button>
+        
+        <p class="footer-info">Stealth Mode: ON | Autostart: ENABLED</p>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>
